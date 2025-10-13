@@ -1,0 +1,16 @@
+MySQL Server: mysql-pdistdb-pdist-db.b.aivencloud.com
+Port number: 20992
+
+Database name: pi_distrib_db
+
+Username: piworker
+Password: w-pass-123
+
+Username: pimaster
+Password: m-pass-123
+
+Lançar os workers com os seguintes parâmetros na linha de comando: 6001 mysql-pdistdb-pdist-db.b.aivencloud.com:20992 pi_distrib_db piworker w-pass-123
+(o porto de escuta é variável e deve ser diferente para workers na mesma máquina)
+
+Lançar o master com os seguintes parâmetros na linha de comando: 10000000 mysql-pdistdb-pdist-db.b.aivencloud.com:20992 pi_distrib_db pimaster m-pass-123 
+pause (o número de intervalos para o cálculo do PI é variável)
