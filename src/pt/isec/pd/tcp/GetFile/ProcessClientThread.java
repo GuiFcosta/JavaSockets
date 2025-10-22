@@ -3,8 +3,6 @@ package pt.isec.pd.tcp.GetFile;
 import java.io.*;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 public class ProcessClientThread extends Thread {
     private Socket socket;

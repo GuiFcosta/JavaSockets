@@ -2,6 +2,7 @@ package pt.isec.pd.exer16;
 
 import java.awt.*;
 import java.net.URI;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -11,7 +12,7 @@ public record Character (
         Date birthDate,
         String hogwartsHouse,
         String interpretedBy,
-        URI image,
+        URL image,
         String[] children) {
 
     @Override
