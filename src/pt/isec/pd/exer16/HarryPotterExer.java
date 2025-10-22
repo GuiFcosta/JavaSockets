@@ -43,6 +43,7 @@ public class HarryPotterExer {
 
                 JsonObject jo = jr.readObject();
 
+                // Download and save image locally - d)
                 String imageUrl = jo.getString("image").trim();
                 try (InputStream imageIn = new URI(imageUrl).toURL().openStream()) {
                     String file;
