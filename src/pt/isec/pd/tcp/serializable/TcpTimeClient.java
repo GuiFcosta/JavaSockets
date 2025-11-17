@@ -1,11 +1,10 @@
 package pt.isec.pd.tcp.serializable;
 
 //import pt.isec.pd.time.Time;
-import pt.isec.pd.aula4.Time;
+import pt.isec.pd.Time.Time;
 
 import java.net.*;
 import java.io.*;
-import java.util.*;
 
 public class TcpTimeClient implements Serializable {
 
